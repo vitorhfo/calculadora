@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+       <meta charset="UTF-8">
+       <title>Calculadora Online</title>
+       <link rel="stylesheet" href="style.css">          
+       <script src="calculadora.js"></script>
+</head>
+<body>
+       <header>
+              <section class = "texttitle">
+                       <h1>Calculadora</h1>
+                       <h2>Teste das Operações</h2>
+              </section>
+       </header>
+       <section class="text">
+                       <label for="operacao" >Digite o primeiro numero: </label><br>
+                       <input type="number" id="valor1" size="2"><br>
+                       <label for="operacao" >Digite o segundo numero: </label><br>
+                       <input type="number" id="valor2" size="2"><br>
+                       <button type="submit" onclick = "adicao()"> Somar </button>
+                       <button type="submit" onclick = "subtrair()"> Subtrair </button>
+                       <button type="submit" onclick = "multiplicar()"> Multiplicar </button>
+                       <button type="submit" onclick = "dividir()"> Dividir </button>
+                       <h2 id = "resultadoDaOperacao"><h2></h2>
+                       <img  class ="photo" src = "https://cdn-icons-png.flaticon.com/512/1046/1046385.png" width="250" height="300" >    
+            
+       </section>
+       
+</body>

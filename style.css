@@ -1,0 +1,32 @@
+body {
+                font-size: 23px;
+                color: white;
+                padding: 10px;
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJYHBi_wboktkFINjJtnM4hVK1JzLevfMvH9IwGbDzAp1aIjS4Bd7r_9iLr0FKOi_KoOE&usqp=CAU);
+                background-size: cover;
+                font-family: "Roboto mono",monospace;
+}
+h1{
+                color: rgb(241, 232, 232);
+                text-align: center;
+                font-style: system-ui;
+                size: 50px;
+}
+.text{
+    margin-top: 40px;
+    text-align: center;
+    border: 10px black;
+}
+.texttitle{
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 280px;
+    margin-right: 280px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: gray;
+    border: 10px black;
+}
+.photo{
+    padding-top: 15px;
+}
